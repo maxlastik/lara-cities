@@ -101,5 +101,7 @@ class MainController extends Controller
                 $city->save();
             }
         } 
+
+        return redirect('/');
     }
 }
